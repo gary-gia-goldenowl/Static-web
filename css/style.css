@@ -280,10 +280,16 @@
         height:400px;
         width:400px;
         background-color:rgb(243 243 243);
-        background-position-x: left;
+        position:absolute;
+        left:50%;
+        top:25%;
+        transform:translate(-50%,-20%)
     }
     .product-main{
+        height:400px;
+        width:400px;
         overflow:hidden;
+        position: relative;
     
     }
     .page-form{
