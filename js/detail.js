@@ -36,7 +36,7 @@ function ZoomImg(event){
     clientY = event.clientY - MainImg.offsetTop
     Width =  MainImg.offsetWidth
     Height =  MainImg.offsetHeight
-    clientX = clientX / Width * 55
+    clientX = clientX / Width * 40
     clientY = clientY / Height * 40
     MainImg.style.transform = "translate(-"+clientX+"%,-"+clientY+"%) scale(1.5)"
 
