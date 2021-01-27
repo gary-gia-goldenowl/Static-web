@@ -208,6 +208,7 @@
     .product-item{
         margin:2.5vw;
         text-align:center;
+        height:380px;
 
     }
     .product-item:hover .product-add{
@@ -279,6 +280,7 @@
         height:400px;
         width:400px;
         background-color:rgb(243 243 243);
+        background-position-x: left;
     }
     .product-main{
         overflow:hidden;
